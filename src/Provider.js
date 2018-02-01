@@ -7,7 +7,7 @@ class Provider extends EventEmitter {
     }
 
     resolve(type, data) {
-        super.emit("found", { type, data });
+        super.emit("resolved", { type, data });
     }
 
     error(type) {
