@@ -1,4 +1,4 @@
-const { EventEmitter } = require("events");
+const EventEmitter = require("events");
 
 class Provider extends EventEmitter {
     constructor(client) {
@@ -6,12 +6,8 @@ class Provider extends EventEmitter {
         this.client = client;
     }
 
-    on(event, fn) {
-        super.addListener(event, fn);
-    }
-
     resolve(type, data) {
-        super.emit("response", { type, data });
+        super.emit("found", { type, data });
     }
 
     error(type) {
@@ -27,3 +23,5 @@ class Provider extends EventEmitter {
         } else this.resolve("user", resolved);
     }
 }
+
+module.exports = Provider;

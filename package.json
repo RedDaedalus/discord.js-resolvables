@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/RedstoneDaedalus/discord.js-resolvables#readme",
   "dependencies": {
+    "discord.js": "^11.3.0",
     "events": "^1.1.1"
   }
 }
