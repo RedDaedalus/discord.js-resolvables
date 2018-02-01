@@ -1,0 +1,26 @@
+{
+  "name": "discord.js-resolvables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedstoneDaedalus/discord.js-resolvables.git"
+  },
+  "keywords": [
+    "discord.js",
+    "resolvable"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "RedstoneDaedalus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedstoneDaedalus/discord.js-resolvables/issues"
+  },
+  "homepage": "https://github.com/RedstoneDaedalus/discord.js-resolvables#readme"
+}
