@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/RedstoneDaedalus/discord.js-resolvables/issues"
   },
-  "homepage": "https://github.com/RedstoneDaedalus/discord.js-resolvables#readme"
+  "homepage": "https://github.com/RedstoneDaedalus/discord.js-resolvables#readme",
+  "dependencies": {
+    "events": "^1.1.1"
+  }
 }
